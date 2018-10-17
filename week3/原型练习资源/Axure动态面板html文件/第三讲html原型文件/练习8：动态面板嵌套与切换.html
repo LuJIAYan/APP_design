@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>练习8：动态面板嵌套与切换</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/练习8：动态面板嵌套与切换/styles.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+@font-face {
+fon-family:'laxurefont';
+src:url('IaxureFont.ttf') format('truetype')
+}
+    </style>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/练习8：动态面板嵌套与切换/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u156" class="ax_default box_1">
+        <div id="u156_div" class=""></div>
+      </div>
+
+      <!-- 我的tab (矩形) -->
+      <div id="u157" class="ax_default label selected" data-label="我的tab">
+        <div id="u157_div" class="selected"></div>
+        <div id="u157_text" class="text ">
+          <p><span>我的</span></p>
+        </div>
+      </div>
+
+      <!-- 音乐馆tab (矩形) -->
+      <div id="u158" class="ax_default label" data-label="音乐馆tab">
+        <div id="u158_div" class=""></div>
+        <div id="u158_text" class="text ">
+          <p><span>音乐馆</span></p>
+        </div>
+      </div>
+
+      <!-- 发现tab (矩形) -->
+      <div id="u159" class="ax_default label" data-label="发现tab">
+        <div id="u159_div" class=""></div>
+        <div id="u159_text" class="text ">
+          <p><span>发现</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u160" class="ax_default icon">
+        <img id="u160_img" class="img " src="images/练习8：动态面板嵌套与切换/u160.png"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u161" class="ax_default icon">
+        <img id="u161_img" class="img " src="images/练习8：动态面板嵌套与切换/u161.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u162" class="ax_default box_1">
+        <div id="u162_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u163" class="ax_default icon">
+        <img id="u163_img" class="img " src="images/练习8：动态面板嵌套与切换/u163.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u164" class="ax_default label">
+        <div id="u164_div" class=""></div>
+        <div id="u164_text" class="text ">
+          <p><span>搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u165" class="ax_default _图片_">
+        <img id="u165_img" class="img " src="images/练习8：动态面板嵌套与切换/u165.png"/>
+      </div>
+
+      <!-- FirstPanel (动态面板) -->
+      <div id="u166" class="ax_default" data-label="FirstPanel">
+        <div id="u166_state0" class="panel_state" data-label="State1" style="">
+          <div id="u166_state0_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u166_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+          <div id="u166_state1_content" class="panel_state_content">
+
+            <!-- SecendPanel (动态面板) -->
+            <div id="u167" class="ax_default" data-label="SecendPanel">
+              <div id="u167_state0" class="panel_state" data-label="State1" style="">
+                <div id="u167_state0_content" class="panel_state_content">
+                </div>
+              </div>
+              <div id="u167_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+                <div id="u167_state1_content" class="panel_state_content">
+                </div>
+              </div>
+              <div id="u167_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
+                <div id="u167_state2_content" class="panel_state_content">
+                </div>
+              </div>
+              <div id="u167_state3" class="panel_state" data-label="State4" style="visibility: hidden;">
+                <div id="u167_state3_content" class="panel_state_content">
+                </div>
+              </div>
+              <div id="u167_state4" class="panel_state" data-label="State5" style="visibility: hidden;">
+                <div id="u167_state4_content" class="panel_state_content">
+                </div>
+              </div>
+            </div>
+
+            <!-- tab1 (矩形) -->
+            <div id="u168" class="ax_default box_1 selected" data-label="tab1">
+              <div id="u168_div" class="selected"></div>
+              <div id="u168_text" class="text ">
+                <p><span>精选</span></p>
+              </div>
+            </div>
+
+            <!-- tab2 (矩形) -->
+            <div id="u169" class="ax_default box_1" data-label="tab2">
+              <div id="u169_div" class=""></div>
+              <div id="u169_text" class="text ">
+                <p><span>排行</span></p>
+              </div>
+            </div>
+
+            <!-- tab3 (矩形) -->
+            <div id="u170" class="ax_default box_1" data-label="tab3">
+              <div id="u170_div" class=""></div>
+              <div id="u170_text" class="text ">
+                <p><span>歌单</span></p>
+              </div>
+            </div>
+
+            <!-- tab4 (矩形) -->
+            <div id="u171" class="ax_default box_1" data-label="tab4">
+              <div id="u171_div" class=""></div>
+              <div id="u171_text" class="text ">
+                <p><span>电台</span></p>
+              </div>
+            </div>
+
+            <!-- tab5 (矩形) -->
+            <div id="u172" class="ax_default box_1" data-label="tab5">
+              <div id="u172_div" class=""></div>
+              <div id="u172_text" class="text ">
+                <p><span>MV</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u166_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
+          <div id="u166_state2_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u173" class="ax_default">
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u174" class="ax_default">
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u175" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u176" class="ax_default _二级标题">
+        <div id="u176_div" class=""></div>
+        <div id="u176_text" class="text ">
+          <p><span>原型：请左右拖动页面查看效果</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

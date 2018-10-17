@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>练习6：拖动</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/练习6：拖动/styles.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+@font-face {
+fon-family:'laxurefont';
+src:url('IaxureFont.ttf') format('truetype')
+}
+    </style>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/练习6：拖动/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u147" class="ax_default _二级标题">
+        <div id="u147_div" class=""></div>
+        <div id="u147_text" class="text ">
+          <p><span>练习6：滑块在一定范围内拖动的效果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u148" class="ax_default _图片_">
+        <img id="u148_img" class="img " src="images/练习6：拖动/u148.png"/>
+      </div>
+
+      <!-- SliderPanel (动态面板) -->
+      <div id="u149" class="ax_default" data-label="SliderPanel">
+        <div id="u149_state0" class="panel_state" data-label="State1" style="">
+          <div id="u149_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片 ) -->
+            <div id="u150" class="ax_default _图片_">
+              <img id="u150_img" class="img " src="images/练习6：拖动/u150.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u151" class="ax_default _文本段落">
+        <div id="u151_div" class=""></div>
+        <div id="u151_text" class="text ">
+          <p><span>元件准备：</span></p><p><span>1. 将两张图片分别添加进入此面板。“轨道”图片记录好2个值：x轴坐标，宽度</span></p><p><span>2. 将“滑块”图片右键“转化为动态面板”，命名为SliderPanel</span></p><p><span><br></span></p><p><span>操作：</span></p><p><span>1. 为动态面板SliderPanel添加&lt;拖动时&gt;用例，设置动作为【移动】“当前元件”；移动类型为【水平移动】；单击“界限”后面的【添加边界】链接，设置【左侧】【&gt;=】&quot;x轴坐标“，【右侧】【&lt;=】”</span><span style="color:#FF0000;">x轴坐标+宽度</span><span>“</span></p><p><span><br></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
