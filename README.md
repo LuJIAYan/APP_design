@@ -1,2 +1,2 @@
 #APP_design_zuoye
-<APP设计与应用课程>练习集
+<APP设计与应用>课程课后练习集
